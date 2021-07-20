@@ -22,8 +22,20 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-    .navbar li.right, 
-    .navbar li {float: none;}
+    .navbar{
+        display:table-cell;
+        background-color:#ffdbac;
+        z-index: 9999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 128px;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 }
 
 .nav_items {
