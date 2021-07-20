@@ -21,23 +21,6 @@ body{
     overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
-    .navbar{
-        display:table-cell;
-        background-color:#ffdbac;
-        z-index: 9999;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 128px;
-        width: 100%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-}
-
 .nav_items {
     float: right;
 }
@@ -104,4 +87,44 @@ body{
 .link_img{
     object-fit: contain;
     height: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        display:table;
+        background-color:#ffdbac;
+        z-index: 9999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav_items {
+        float: center;
+    }
+
+    .nav_items a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 4px 5px;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        text-decoration: none;
+        height: 100%;
+    }
+
+    #logo{
+        padding: 4px;
+        float: left;
+        margin-left: 4px;
+    }
 }
