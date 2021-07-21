@@ -3,17 +3,19 @@ html {
 }
 
 body{
-    background-color: #DFDDC7;
+    background-color: #1b1a17;
+    color:#ff8303;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .navbar{
-    background-color:#ffdbac;
+    display: table;
+    background-color:#f0e3ca;
     z-index: 9999;
     position: fixed;
     top: 0;
     left: 0;
-    height: 64px;
+    /* height: 64px; */
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -28,25 +30,28 @@ body{
 .nav_items a {
     display: block;
     color: black;
+    font-size: 16px;
     text-align: center;
-    padding: 8px 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 16px;
+    padding: 8px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 12px;
+    margin-bottom: 8px;
     text-decoration: none;
     height: 100%;
 }
 
 .nav_items a:hover:not(.active) {
     background-color: #a35709;
-    border-radius: 16px
+    border-radius: 16px;
+    color: white;
 }
 
 #logo{
-    padding: 4px;
+    margin-top: 4px;
     display: inline;
     float: left;
-    margin-left: 32px;
+    margin-left: 16px;
 }
 
 .navigation{
@@ -59,10 +64,11 @@ body{
     margin-right: 32px; 
 }
 
+
 .page{
-    padding-top: 64px;
+    padding-top: 128px;
     width: 100%;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 128px);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -70,12 +76,12 @@ body{
 }
 
 #about{
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
 }
 
 .page_titles{
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -89,7 +95,7 @@ body{
     height: 32px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 500px) {
     .navbar{
         display:table;
         background-color:#ffdbac;
@@ -97,7 +103,7 @@ body{
         position: fixed;
         top: 0;
         left: 0;
-        height: auto;
+        height: 128px;
         width: 100%;
         list-style-type: none;
         margin: 0;
@@ -111,7 +117,6 @@ body{
 
     .nav_items a {
         display: block;
-        color: black;
         text-align: center;
         padding: 4px 5px;
         margin-left: 8px;
@@ -127,4 +132,14 @@ body{
         float: left;
         margin-left: 4px;
     }
-}
+
+    .page{
+        padding-top: 128px;
+        width: 100%;
+        height: calc(100vh - 128px);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-flow: column nowrap;
+    }
+} */
