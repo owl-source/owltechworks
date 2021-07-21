@@ -15,7 +15,6 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    /* height: 64px; */
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -68,7 +67,7 @@ body{
 .page{
     padding-top: 128px;
     width: 100%;
-    height: calc(100vh - 128px);
+    height: calc(100vh - 112px);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -76,21 +75,28 @@ body{
 }
 
 #about{
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
 }
 
 .page_titles{
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 8px;
 }
 
 .links{
+    display: table;
     margin-bottom: 24px;
 }
 
 .link_img{
     object-fit: contain;
     height: 32px;
+    margin-right: 4px;
+}
+
+.payment_img{
+    object-fit: contain;
+    height: 48px;
 }
