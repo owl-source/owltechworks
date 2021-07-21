@@ -67,7 +67,7 @@ body{
 .page{
     padding-top: 128px;
     width: 100%;
-    height: calc(100vh - 112px);
+    height: calc(90vh - 112px);
     align-items: center;
     display: flex;
     justify-content: center;
