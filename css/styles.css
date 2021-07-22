@@ -4,13 +4,13 @@ html {
 
 body{
     background-color: #1b1a17;
-    color:#ff8303;
-    font-family: 'Brush Script MT', cursive;
+    color:#f8c136;
+    font-family: Georgia, serif;
 }
 
 .navbar{
     display: table;
-    background-color:#f0e3ca;
+    background-color:#f8c84e;
     z-index: 9999;
     position: fixed;
     top: 0;
@@ -34,16 +34,16 @@ body{
     padding: 8px 8px;
     margin-left: 8px;
     margin-right: 8px;
-    margin-top: 12px;
+    margin-top: 16px;
     margin-bottom: 8px;
     text-decoration: none;
     height: 100%;
 }
 
 .nav_items a:hover:not(.active) {
-    background-color: #a35709;
+    background-color: #A35709;
     border-radius: 16px;
-    color: white;
+    color: #f0e3ca;
 }
 
 #logo{
@@ -51,6 +51,8 @@ body{
     display: inline;
     float: left;
     margin-left: 16px;
+    object-fit: contain;
+    height: 64px;
 }
 
 .navigation{
@@ -65,14 +67,17 @@ body{
 
 
 .page{
-    padding-top: 112px;
+    padding-top: 128px;
+    padding-bottom: 10vh;
     width: 100%;
-    height: calc(90vh - 112px);
+    height: calc(90vh - 128px);
     align-items: center;
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
 }
+
+
 
 #about{
     font-size: 24px;
@@ -98,5 +103,5 @@ body{
 
 .payment_img{
     object-fit: contain;
-    height: 48px;
+    height: 64px;
 }
